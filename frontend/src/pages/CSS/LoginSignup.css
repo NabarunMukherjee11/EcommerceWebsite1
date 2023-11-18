@@ -1,0 +1,77 @@
+.loginsignup{
+    margin-top: 30px;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(white, lightcyan 99%);
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: lightcyan;
+    margin: auto;
+    padding: 40px 50px;
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.loginsignup-fields input{
+    height: 42px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid cyan;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+.loginsignup-container button{
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border-width: 0px;
+    background: cyan;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-container button:active{ /*to give effect*/
+    background-color: white;
+}
+.loginsignup-container button span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: darkblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-agree input{
+    width: 30px;
+}
